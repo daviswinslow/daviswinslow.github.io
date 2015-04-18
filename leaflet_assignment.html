@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Load jQuery -->
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+
+    <!-- Load Leaflet -->
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+    <script>
+      /*
+       * Keep the map variable out here so we can access it from
+       * the console.
+       */
+      var map;
+
+      $(document).ready(function () {
+        /*
+         * Create the map
+         */
+        map = L.map('map').setView([47.61, -122.35], 11);
+
+        /*
+         * Add base tiles from Mapbox. Replace "ebrelsford.ho06j5h0" with
+         * the id from your Mapbox map to use those tiles instead.
+         */
+        L.tileLayer('http://{s}.tiles.mapbox.com/v4/daviswinslow.03847c1f/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGF2aXN3aW5zbG93IiwiYSI6ImlPVUQwYTAifQ.lPJzHF0PpoUeOa-FEmXvBQ', {
+          maxZoom: 18,
+          attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="http://mapbox.com">Mapbox</a>'
+        }).addTo(map);
+        
+        /*
+         * Add data loaded from GitHub.
+         *
+         * This is a GeoJSON file containing NYC's BIDs. We load it
+         * here by asking jQuery to load the file ($.getJSON). Once this
+         * succeeds, we add the data to an L.geoJson (a layer holding
+         * GeoJSON data) and add that to the map.
+         */
+        $.getJSON('https://github.com/daviswinslow/daviswinslow.github.io/blob/master/buildingpermits1415.geojson', function (data) {
+          L.geoJson(data, {
+            
+            /*
+             * Add a popup to each "layer" (shape in the GeoJSON),
+             * in this case the popup simply contains the NAME property.
+             */
+            onEachFeature: function (feature, layer) {
+              layer.bindPopup(feature.description);
+            }
+          }).addTo(map);
+        })
+      });
+    </script>
+  </head>
+  <body>
+    <div id="map"></div>
+  </body>
+</html>
