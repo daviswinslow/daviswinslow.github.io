@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2015 by daviswinslow (http://jsbin.com/rodif/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
 <html>
   <head>
     <meta charset="utf-8">
@@ -40,7 +49,7 @@
          * succeeds, we add the data to an L.geoJson (a layer holding
          * GeoJSON data) and add that to the map.
          */
-        $.getJSON('https://github.com/daviswinslow/daviswinslow.github.io/blob/master/buildingpermits1415.geojson', function (data) {
+        $.getJSON('http://daviswinslow.github.io/buildingpermits1415.geojson', function (data) {
           L.geoJson(data, {
             
             /*
@@ -54,8 +63,35 @@
         })
       });
     </script>
-  </head>
+  <style id="jsbin-css">
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: purple;
+}
+
+.leaflet-popup {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+</style>
+</head>
   <body>
     <div id="map"></div>
-  </body>
+  <script id="jsbin-javascript">
+// Leaflet with popups
+</script>
+</body>
 </html>
