@@ -1,0 +1,28 @@
+<! DOCTYPE html>
+<html>
+	<head>
+      <style>
+      body {
+    background-color: #ccc;
+    font-family: Geneva, sans-serif; 
+    color: black;
+    font-size: medium"
+    
+      }
+      h1 {
+    background-color: #ccc;
+    padding: 20px;
+    font-family: Geneva, sans-serif;
+      }
+      </style>
+</head>
+  <h1 class="top">New Development in Seattle, WA</h1>
+<body>
+<iframe width='100%' height='520' frameborder='0' src='https://daviswinslow.cartodb.com/viz/2745a0b8-de34-11e4-866c-0e018d66dc29/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+        <p>This map uses open data provided by the city of Seattle to display new issuances of building permits across the city. Below is a list of resources related to new development in the city.</p>
+        <p></p><strong>RESOURCES</strong>
+            <ul>
+                <li><a href="http://www.seattletimes.com/business/s-lake-union-plan-sell-off-5-buildings-build-8-more">S. Lake Union plan: Sell off 5 buildings, build 8 more. Seattle Times. 2014.</a></li> <img src="http://static.seattletimes.com/wp-content/uploads/2014/08/2024274008-300x0.gif" />
+            </ul>
+	</body>
+</html>
