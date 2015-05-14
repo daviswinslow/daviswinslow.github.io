@@ -42,7 +42,20 @@
   
     // When it's done, add the results to the map
     .done(function (data) {
-      L.geoJson(data).addTo(map);
+      L.geoJson(data, {
+        
+        // Add a pointToLayer function, which will let us
+        // customize the icons used for each feature
+        pointToLayer: function (feature, latlng) {
+          
+          // Return a new marker with our icon
+          return L.marker(latlng, {
+            icon: L.icon({
+              iconUrl: 'http://daviswinslow.neocities.org/black2.svg'
+            })
+          });
+        }
+      }).addTo(map);   
     });
 	
 });
