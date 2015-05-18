@@ -1,0 +1,1292 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "timestamp": "3/7/2015 21:42:33",
+        "business_name": "Dogwalking for Rainforests",
+        "industry": "Pet Care",
+        "summary": "We are a collective of NYC dog walkers, pet sitters, and a certified dog trainer/pet owner counselor who give a large portion of our profits to small nonprofit projects. Our mission is to give your pet as much love and protection as we would like to give the world.",
+        "website": "www.dogwalkingforrainforests.com",
+        "telephone": "(917) 670-1699",
+        "email": "rainforestdogs@gmail.com",
+        "address": "",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 20,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:26Z",
+        "cartodb_georef_status": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919159,
+          40.83625
+        ]
+      },
+      "properties": {
+        "timestamp": "3/23/2015 21:42:33",
+        "business_name": "B. Blossom",
+        "industry": "Restaurants / Catering / Food",
+        "summary": "B. Blossom is not just a catering business, it is a Bronx experience. Its owners are Bronx residents who have a passion for fine food that is delicious, appetizing and nutritious. As they experience the blossoming of the Bronx, they also desire to offer a blossoming culinary experience to its many customers.",
+        "website": "www.bblossom.com",
+        "telephone": "(917) 733-9802",
+        "email": "mperez@bblossom.com",
+        "address": "50 E. 168 St, Bronx, NY 10452",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 36,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.627586,
+          40.701328
+        ]
+      },
+      "properties": {
+        "timestamp": "2/19/2015 21:42:33",
+        "business_name": "La Mies Bakery",
+        "industry": "Bakery",
+        "summary": "La Mies or \"Harvest\" Bakery was founded in the aftermath of Hurricane Sandy as an effort of Worker Owned Rockaway Cooperatives and The Working World. We currently operate out of an industrial kitchen and look forward to occupying our own retail location.",
+        "website": "",
+        "telephone": "(718) 406-1929",
+        "email": "josuecas12@aol.com",
+        "address": "458 Peninsula Blvd, Hempstead, NY 11550",
+        "d_corp": null,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 4,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.005898,
+          40.715191
+        ]
+      },
+      "properties": {
+        "timestamp": "3/14/2015 21:42:33",
+        "business_name": "Maurus & Heinegg",
+        "industry": "Law",
+        "summary": "Maurus & Heinegg is a civil rights, criminal defense, and immigration law firm dedicated to fighting for people’s rights. We are guided by a vision of social justice that informs our interactions with all of our clients and their communities.",
+        "website": "www.mauruslaw.com",
+        "telephone": "(212) 227-2303",
+        "email": "",
+        "address": "299 Broadway #806, New York, NY 10007",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 27,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "timestamp": "3/1/2015 21:42:33",
+        "business_name": "Equal Exchange",
+        "industry": "Coffee",
+        "summary": "Equal Exchange's mission is to build long-term trade partnerships that are economically just and environmentally sound, to foster mutually beneficial relationships between farmers and consumers and to demonstrate, through our success, the contribution of worker cooperatives and Fair Trade to a more equitable, democratic and sustainable world.",
+        "website": "www.equalexchange.coop",
+        "telephone": "(774) 776-7333",
+        "email": "orders@equalexchange.coop",
+        "address": "",
+        "d_corp": true,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 14,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:26Z",
+        "cartodb_georef_status": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "timestamp": "3/4/2015 21:42:33",
+        "business_name": "Green Worker Cooperatives",
+        "industry": "Development / Finance",
+        "summary": "Green Worker Cooperatives is a South-Bronx based organization dedicated to incubating worker-owned green businesses in order to build a strong local economy rooted in democracy and environmental justice. We train and develop worker cooperatives that have a positive environmental impact and enable the transformation of their members and community. We value the principles of solidarity and decision-making by those affected by decisions. And we are committed to contributing to worker cooperative and environmental justice movements around the globe.",
+        "website": "www.greenworker.coop",
+        "telephone": "(718) 617-7807",
+        "email": "info@greenworker.coop",
+        "address": "",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 17,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:26Z",
+        "cartodb_georef_status": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "timestamp": "3/5/2015 21:42:33",
+        "business_name": "The ICA Group",
+        "industry": "Development / Finance",
+        "summary": "Founded in 1978, The ICA Group is a national consultancy whose mission is to expand economic opportunity and self-determination by supporting initiatives that empower workers, build community assets and root capital locally. We provide a full range of consulting services including strategic analysis and technical assistance services that help our clients create economic opportunities for disadvantaged populations and develop and sustain alternative business structures including cooperatives, social enterprises  and conventionally structured businesses with an employee focus.",
+        "website": "www.ica-group.org",
+        "telephone": "(617) 232-8765",
+        "email": "ica@ica-group.org",
+        "address": "",
+        "d_corp": true,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 18,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:26Z",
+        "cartodb_georef_status": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "timestamp": "3/16/2015 21:42:33",
+        "business_name": "Mess Kollective",
+        "industry": "Logistics",
+        "summary": "The Mess Kollective is a messenger-owned and operated company. We offer highly personalized and specialized service. Being a small company gives us greater flexibility, making it easier for us to fulfill your needs. Our messengers know the city intimately - it has been our playground for years. We are fast, fit and experienced - that is why we offer the fastest service around.",
+        "website": "www.messkollective.com",
+        "telephone": "(917) 446-2476",
+        "email": "",
+        "address": "",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 29,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:26Z",
+        "cartodb_georef_status": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "timestamp": "3/28/2015 21:42:33",
+        "business_name": "Milk Not Jails",
+        "industry": "Restaurants / Catering / Food",
+        "summary": "Milk Not Jails organizes urban and rural people in New York State who are hurt by mass incarceration to build an economic alternative to the prison industry. Milk Not Jails partners with local, small-scale dairy farmers who oppose prison expansion. In exchange for the farmers’ strategic political support, Milk Not Jails markets, sells, and distributes milk, cheese, yogurt, and more to urban consumers through their non-profit social enterprise. Help us build a new urban rural relationship built on local food, not locking people up.",
+        "website": "www.milknotjails.org",
+        "telephone": "(917) 719-MILK",
+        "email": "shop@milknotjails.org",
+        "address": "",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 41,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:26Z",
+        "cartodb_georef_status": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.956863,
+          40.673012
+        ]
+      },
+      "properties": {
+        "timestamp": "",
+        "business_name": "Tadpole Collective",
+        "industry": "Web Design / Tech",
+        "summary": "Tadpole is a creative collective that specializes in WordPress and CiviCRM. Their goal is to give you a complete solution for your website from top to bottom.",
+        "website": "www.tadpole.cc",
+        "telephone": "(347) 878-9823",
+        "email": "dana@tadpole.cc",
+        "address": "751 Franklin Ave, #119 Brooklyn, NY 11238",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 46,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.75798,
+          40.602409
+        ]
+      },
+      "properties": {
+        "timestamp": "3/3/2015 21:42:33",
+        "business_name": "Roca Mia Construction",
+        "industry": "Construction",
+        "summary": "Owned and operated by its workers, Roca Mia Construction Inc. is New York City’s newest home improvement contracting company! The workers formed the cooperative in the aftermath of Hurricane Sandy to help rebuild their devastated community in Far Rockaway, Queens. Now, they have expanded their services to most of the New York City area. The company specializes in a wide range of remodeling and home repair services, including but not limited to: flooring, drywall, ceramic tile, painting, bathroom and kitchen installation, masonry, and carpentry. The workers have experience ranging from five to over 15 years and offer some of the most competitive prices in the industry. Hire Roca Mia, and support a great cause! ",
+        "website": "",
+        "telephone": "718) 216-4445 / (347) 358-1509",
+        "email": "rocamia6construction@hotmail.com",
+        "address": "23-04 Cornaga Avenue, Far Rockaway, NY 11691",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 16,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011345,
+          40.653187
+        ]
+      },
+      "properties": {
+        "timestamp": "3/19/2015 21:42:33",
+        "business_name": "Meerkat Media",
+        "industry": "Media",
+        "summary": "Meerkat Media is a production company co-op and arts collective, committed to making artful and thought-provoking films through a non-hierarchical collaborative process. We produce both independent and commissioned work, ranging from documentary features and music videos, to web videos for grassroots organizations, publishers, universities, news magazines and non-profits. In all our work, we emphasize narrative storytelling, visual craft, and a dedication to the highest production value. Under a cooperative model, we share skills, equipment, ideas, and profits, with a firm belief that a healthy, inclusive process is as important as crafting quality work. In addition to producing films, we run a media arts residency at a middle school in East New York.",
+        "website": "www.meerkatmedia.org",
+        "telephone": "(401) 954-4240",
+        "email": "meerkats@meerkatmedia.org",
+        "address": "225 42nd St, Suite 310, Brooklyn NY 11232",
+        "d_corp": true,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 32,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937523,
+          40.84684
+        ]
+      },
+      "properties": {
+        "timestamp": "2/24/2015 21:42:33",
+        "business_name": "Ecomundo Cleaning",
+        "industry": "Cleaning",
+        "summary": "We are a group of mostly women (and two men), from Upper Manhattan and the Bronx, who have formed a cooperative business in order to ensure ourselves decent wages and healthy work conditions. We offer green cleaning services for homes, offices and businesses in the New York Metropolitan area. As both workers and owners of our business we have a special interest in providing the best service possible.",
+        "website": "www.ecomundo.coop",
+        "telephone": "(917) 830-8060",
+        "email": "ecomundo.coop@gmail.com",
+        "address": "76 Wadsworth Ave, New York, NY 10033",
+        "d_corp": true,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 9,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99205,
+          40.7285
+        ]
+      },
+      "properties": {
+        "timestamp": "3/24/2015 21:42:33",
+        "business_name": "Colors Restaurant",
+        "industry": "Restaurants / Catering / Food",
+        "summary": "Colors is New York’s only cooperative restaurant, owned and operated by its workers. Colors is committed to local ingredients, ethical employee practices, gracious and warm service and fresh, tasty food. We call it Just. Good. Food. We welcome your fundraisers, galas, corporate events, holiday celebrations, fashion shows, wedding receptions, birthdays, bar and bat mitzvahs, quinceaneras, and more!",
+        "website": "www.colorsrestaurantnyc.com",
+        "telephone": "(212) 777-8443",
+        "email": "info@colorsrestaurantnyc.com",
+        "address": "417 Lafayette St, New York, NY 10003",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 37,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936485,
+          40.795692
+        ]
+      },
+      "properties": {
+        "timestamp": "2/28/2015 21:42:33",
+        "business_name": "The Sharing Place",
+        "industry": "Clothing",
+        "summary": "Named \"Best Thrift Shop in NYC\" by the Daily News in 2012, The Sharing Place has been a popular destination in East Harlem for those needing good quality clothing, housewares, toys and books at very low prices. It's a warm, welcoming place where neighbors meet and greet each other, helping to create a stronger sense of community in our neighborhood.",
+        "website": "www.littlesistersfamily.org",
+        "telephone": "(646) 672-5210",
+        "email": "sharingplace@lsafhs.org",
+        "address": "333 East 115th Street, New York, NY 10029",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 13,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.973137,
+          40.68013
+        ]
+      },
+      "properties": {
+        "timestamp": "3/20/2015 21:42:33",
+        "business_name": "OWS Screenprinters",
+        "industry": "Printing",
+        "summary": "In the days following September 17th, word began to circulate that something big was happening on Wall Street. People were camping out in Zuccotti Park, protesting economic injustice, making friends, creating art. One morning, a couple of printmakers showed up at the park with a screen and squeegee and began making prints on clothes, paper, or whatever items people brought. As the OWS Screenprinters, we have evolved into an autonomous, multi-faceted, revolutionary print production facility. It is our sincere hope that you will enjoy what we make, and spread the message that lies in all of our hearts: A Better World is Possible.",
+        "website": "www.owsscreenprinters.com",
+        "telephone": "(810) 610-1162",
+        "email": "owsscreenprinters@gmail.com",
+        "address": "522 Bergen Street, Brooklyn, NY 11217",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 33,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.973137,
+          40.68013
+        ]
+      },
+      "properties": {
+        "timestamp": "3/21/2015 21:42:33",
+        "business_name": "Radix Media",
+        "industry": "Printing",
+        "summary": "Radix Media is a worker-owned and operated union print shop based in Brooklyn, New York, offering both offset and digital printing services, as well as graphic design. Our name comes from the Latin root of the word radical which means to get to the root.",
+        "website": "www.radixmedia.org",
+        "telephone": "(718) 781-5947",
+        "email": "info@radixmedia.org",
+        "address": "522 Bergen Street, Brooklyn, NY 11217",
+        "d_corp": true,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 34,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986519,
+          40.692039
+        ]
+      },
+      "properties": {
+        "timestamp": "2/16/2015 21:42:33",
+        "business_name": "3B Bed & Breakfast",
+        "industry": "Accommodations",
+        "summary": "Welcome to your new home away from home in Brooklyn. As an outgrowth of our little community, we’ve renovated a beautiful space in Downtown Brooklyn and opened our doors to you. For accessibility, vibe and value, there is no better place to stay when visiting New York City. (Don’t take our word for it—check out the buzz from New York Magazine, Budget Travel Magazine, Huffington Post, The Paris Review and more.) We’re filling up fast, so book your room now.",
+        "website": "www.3bbrooklyn.com",
+        "telephone": "(347) 762-2632",
+        "email": "info@3bbrooklyn.com",
+        "address": "136 Lawrence Street, Brooklyn, New York, 11201",
+        "d_corp": true,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 1,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.960808,
+          40.681042
+        ]
+      },
+      "properties": {
+        "timestamp": "2/20/2015 21:42:33",
+        "business_name": "A Bookkeeping Cooperative",
+        "industry": "Bookkeeping",
+        "summary": "ABC offers bookkeeping and business consulting to non-profits & businesses in New York and beyond. We provide a knowledge base, benefits, training, and a community to freelance bookkeepers and accountants.",
+        "website": "www.bookkeeping.coop",
+        "telephone": "(917) 288-1884",
+        "email": "info@bookkeeping.coop",
+        "address": "70 Lefferts Place, Brooklyn, NY 11238",
+        "d_corp": true,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 5,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98851,
+          40.737587
+        ]
+      },
+      "properties": {
+        "timestamp": "3/6/2015 21:42:33",
+        "business_name": "The Working World",
+        "industry": "Development / Finance",
+        "summary": "The Working World is a non-profit organization that provides investment capital and technical support for worker cooperatives using an innovative finance model. We put money at the service of people, not the other way around. We help design, fund, and carry out productive projects, only requiring businesses pay us back with the revenues the investments generate. As active partners, we are more motivated to ensure that these projects are successful, or in other words, that finance is only used as a tool to create real, lasting wealth for those that it serves. Upon return, all investment money is reintegrated to our locally-based revolving loan fund to be overseen by the worker cooperatives and the community it serves.",
+        "website": "www.theworkingworld.org",
+        "telephone": "(646) 257-4144",
+        "email": "",
+        "address": "228 Park Ave S., #27395, New York, NY 10003",
+        "d_corp": true,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 19,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891449,
+          40.86158
+        ]
+      },
+      "properties": {
+        "timestamp": "3/11/2015 21:42:33",
+        "business_name": "Cooperative Home Care Associates",
+        "industry": "Home Care / Elder Care",
+        "summary": "CHCA is a nationally recognized, worker-owned home care agency in the Bronx. CHCA was founded in 1985 to provide quality home care to clients by providing quality jobs for direct-care workers.\n\nCHCA started with 12 home health aides. The cooperative now employs more than 2,000 staff. Together with PHI, a nonprofit founded by CHCA in 1992, CHCA maintains an employer-based workforce development program that provides free training for 600 low-income and unemployed women annually and serves as a significant driver of employment in the Bronx.",
+        "website": "www.chcany.org",
+        "telephone": "(718) 993-7104",
+        "email": "info@chcany.org",
+        "address": "400 East Fordham Road,13th Floor, Bronx, NY 10458",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 24,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.014313,
+          40.677803
+        ]
+      },
+      "properties": {
+        "timestamp": "3/18/2015 21:42:33",
+        "business_name": "KALUK Guerrilla Marketing",
+        "industry": "Marketing",
+        "summary": "KALUK Guerrilla Marketing and Services is a worker-owned cooperative startup designed to meet the needs, the size and budgets of small businesses and cooperatives. KALUK will offer affordable services for reaching your target market, including drop-off and hand-to-hand flyer distribution. Street marketing gets your brand to where your clients live, work and play. You'll raise your on-line presence with daily social media updates and KALUK can help you develop engaging multimedia content. Through surveys and research KALUK can help you develop a marketing plan that fits your business, your budget and your lifestyle.",
+        "website": "www.kalukservices.com",
+        "telephone": "(718) 569-5759",
+        "email": "kalukservices@gmail.com",
+        "address": "173 Conover Street, Brooklyn, NY 11231",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 31,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983543,
+          40.723461
+        ]
+      },
+      "properties": {
+        "timestamp": "",
+        "business_name": "Openflows Community Technology Cooperative",
+        "industry": "Web Design / Tech",
+        "summary": "Openflows, Inc. is a worker cooperative committed to bringing cutting edge open source software solutions to non-profits, NGOs, educational, cultural, and progressive community organizations. Openflows has over a dozen years of experience working collaboratively and transparently with our clients to customize and develop databases, websites, servers, and other supporting technologies.",
+        "website": "www.openflows.com",
+        "telephone": "(646) 942-7682",
+        "email": "info@openflows.com",
+        "address": "220A East 4th Street, New York, NY 10009",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 44,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993248,
+          40.743252
+        ]
+      },
+      "properties": {
+        "timestamp": "",
+        "business_name": "Samamkāya Back Care & Scoliosis Yoga Collective",
+        "industry": "Yoga / Massage",
+        "summary": "Samamkāya Back Care & Scoliosis Yoga Collective is a therapeutic, worker-owned yoga studio. Our aim is to make yoga accessible and healing to students of all ages and abilities who are living with back injuries, chronic/acute pain, differently shaped spines/bodies, scoliosis and spinal fusions. In addition to offering highly specialized therapeutic yoga, we are unique in our business structure. We are the only center dedicated exclusively to back care and scoliosis that is owned and run by our teachers. Our cooperative model allows us to build a collaborative co-created environment with sustainable living wages for our highly trained and talented teacher community. Our services include: (a) daily therapeutic back care and scoliosis classes; (b) weekend (and sometimes evening) special workshops and teacher trainings with senior teachers from around the world; (c) private lessons offered directly by our expert teaching faculty; and (d) bodywork.",
+        "website": "www.samamkayabackcare.com",
+        "telephone": "(646) 964-5772",
+        "email": "info@samamkayabackcare.com",
+        "address": "119 W. 23rd St, Ste # 406, New York, NY 10011",
+        "d_corp": true,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 47,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.873962,
+          40.748421
+        ]
+      },
+      "properties": {
+        "timestamp": "2/25/2015 21:42:33",
+        "business_name": "Pa’lante Green Cleaning",
+        "industry": "Cleaning",
+        "summary": "We're here to meet your home, office, and post-construction cleaning needs. Appointments can be made via phone or online form (coming soon!). We respond to all requests within 24 hours. Pa’lante Green Cleaning is a worker-owned cooperative that aims to improve the working conditions of its members through the creation of dignified living wage jobs and the development of leadership and workplace democracy. Pa’lante provides quality professional cleaning services that build a sustainable relationship between its members, the clients and the broader community through mutual understanding and the promotion of green products.",
+        "website": "www.palantecleaning.coop",
+        "telephone": "(347) 845-6674",
+        "email": "info@palantecleaning.coop",
+        "address": "92-10 Roosevelt Ave, Jackson Heights, NY 11373",
+        "d_corp": true,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 10,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.497887,
+          42.439579
+        ]
+      },
+      "properties": {
+        "timestamp": "",
+        "business_name": "CoLab Cooperative",
+        "industry": "Web Design / Tech",
+        "summary": "CoLab is a software design and build agency with headquarters in Ithaca, NY and composed of exceptional talent from across the country (and around the world). CoLab creates exceptional software for the world's leading change-makers. Collaborating with non-profits, startups, social enterprises, and beyond as part of its mission to better the world through technology.",
+        "website": "www.colab.coop",
+        "telephone": "(607) 821-3593",
+        "email": "ethan@colab.coop",
+        "address": "141 The Commons, 3rd Floor, Ithaca, NY 14850",
+        "d_corp": true,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 43,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931541,
+          40.697609
+        ]
+      },
+      "properties": {
+        "timestamp": "3/29/2015 21:42:33",
+        "business_name": "Norbert's Pizza",
+        "industry": "Restaurants / Catering / Food",
+        "summary": "Located in Bushwick at the corner of Myrtle Avenue & Charles Place!",
+        "website": "www.norbertspizza.com",
+        "telephone": "(718) 574-3400",
+        "email": "adam@norbertspizza.com",
+        "address": "1215 Myrtle Avenue, Brooklyn, NY 11221",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 42,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.988922,
+          40.72139
+        ]
+      },
+      "properties": {
+        "timestamp": "2/21/2015 21:42:33",
+        "business_name": "Bluestockings",
+        "industry": "Bookstore",
+        "summary": "We carry over 6000 titles on topics such as feminism, queer and gender studies, global capitalism, police and prisons, and black studies. You can also find some good ‘ole smutty fiction. We also carry magazines, zines, journals, alternative menstrual products and other oddly hard-to-find good things.\n\nWe host readings, workshops, performances, discussions and films almost every night. Please see our events calendar for details on upcoming events, and when visiting the store, take a look at our community bulletin board to learn about other events happening around the city. Also check out our Mission and Safer Space Policy, which provide guidelines to help Bluestockings be a supportive environment for all who participate.\n\nOur cafe offers delightful organic, vegan, and fair trade goodness. We’ve got darn good coffee brimming with zapatismo.",
+        "website": "www.bluestockings.com",
+        "telephone": "(212) 777-6028",
+        "email": "\ninfo@bluestockings.com",
+        "address": "172 Allen Street, NY, NY 10002",
+        "d_corp": null,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 6,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.846573,
+          40.834518
+        ]
+      },
+      "properties": {
+        "timestamp": "3/22/2015 21:42:33",
+        "business_name": "ASHA Group",
+        "industry": "Restaurants / Catering / Food",
+        "summary": "ASHA Group is a NYC cooperative that specializes in South Asian foods. We pride ourselves in making fresh and healthy snacks using the best ingredients.",
+        "website": "www.facebook.com/AshaGroupLLC",
+        "telephone": "(718) 828-9772",
+        "email": "info@sapnanyc.org",
+        "address": "2348 Waterbury Ave, Bronx, NY 10462",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 35,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929542,
+          40.807903
+        ]
+      },
+      "properties": {
+        "timestamp": "2/18/2015 21:42:33",
+        "business_name": "The Shoppe BX",
+        "industry": "Art",
+        "summary": "Aiming to build community and art appreciation in the South Bronx neighborhood, the Shoppe BX creative space features a retail storefront that sells artist work and a loft space for hosting workshops open to the public. The Shoppe BX will also sponsor pop-up events for local designers and artists.",
+        "website": "www.theshoppebx.com",
+        "telephone": "(347) 317-1844",
+        "email": "info@theshoppebx.com",
+        "address": "127 Lincoln Ave, Bronx, NY 10454",
+        "d_corp": null,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 3,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.973084,
+          40.678829
+        ]
+      },
+      "properties": {
+        "timestamp": "3/9/2015 21:42:33",
+        "business_name": "HTINK",
+        "industry": "Education / Sports",
+        "summary": "HTINK (pronounced “tink”- the “h” is silent) is an educational services cooperative (based on the Mondragon model) focused on spreading technical learning and creative problem solving skills to as many people as possible. We provide classes, workshops, and collaborative problem solving challenges for adults and children that promote hands-on learning and making. In addition to direct instruction we also provide professional development services and technical support to Schools, Community-based organizations, Makerspaces, Hackerspaces and Fablabs.",
+        "website": "www.htink.org",
+        "telephone": "(718) 841-7327",
+        "email": "info@htink.org",
+        "address": "115 Prospect Place, Brooklyn, NY 11217",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 22,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004784,
+          40.652069
+        ]
+      },
+      "properties": {
+        "timestamp": "3/25/2015 21:42:33",
+        "business_name": "Émigré Gourmet",
+        "industry": "Restaurants / Catering / Food",
+        "summary": "Catering services are available for events large and small in your home or event space. Links to our many able chefs and their extensive menus are found on each of their individual pages on this site. Prices for catering vary by cuisine, and special accommodations for dietary needs or preferences can always be made. Our cooks are available to help you shape a menu that includes all of your favorites.",
+        "website": "emigregourmet.weebly.com",
+        "telephone": "(718) 633-4823",
+        "email": "emigregourmet@gmail.com",
+        "address": "443 39th Street, Brooklyn, NY 11232",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 38,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004784,
+          40.652069
+        ]
+      },
+      "properties": {
+        "timestamp": "3/12/2015 21:42:33",
+        "business_name": "Golden Steps",
+        "industry": "Home Care / Elder Care",
+        "summary": "We are a cooperative of well-trained home companions that walk alongside men and women in their Golden Age. We handle their daily non-medical tasks and help them to get around step-by-step, keeping them safe and caring for them as if they were family.\n\nSince we are worker-owned, we seek to provide high quality service at an affordable price to allow those we serve to lead safer and happier lives at home, giving them the comfort of knowing that they are not alone and their loved ones the peace-of-mind that they are in good hands.",
+        "website": "www.goldensteps.coop",
+        "telephone": "(718) 687-1978",
+        "email": "info@goldensteps.coop",
+        "address": "443 39th Street, Brooklyn, NY 11232",
+        "d_corp": true,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 25,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004784,
+          40.652069
+        ]
+      },
+      "properties": {
+        "timestamp": "3/10/2015 21:42:33",
+        "business_name": "Kickin' It",
+        "industry": "Education / Sports",
+        "summary": "Kickin’ It is a worker-owned cooperative created by responsible young adults to teach kids the fundamentals of soccer. Our goal is to provide an enjoyable, safe, and positive experience for all our participants.",
+        "website": "www.kickinitcoop.wordpress.com",
+        "telephone": "(347) 236-3239",
+        "email": "kickinitcoop@gmail.com",
+        "address": "443 39th Street, Brooklyn, NY 11232",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 23,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004784,
+          40.652069
+        ]
+      },
+      "properties": {
+        "timestamp": "3/8/2015 21:42:33",
+        "business_name": "Trusty Amigos Dogwalking & Pet Care",
+        "industry": "Pet Care",
+        "summary": "The name Trusty Amigos represents our commitment to being reliable, loyal amigos to our clients, pets and our fellow coop members. Trusty Amigos is a cooperative business where the walkers are the owners of the business. We strive to bring enthusiasm, professionalism and dignity to our work as dog walking and pet-care professionals.",
+        "website": "www.trustyamigos.coop",
+        "telephone": "(718) 618-5474",
+        "email": "info@trustyamigos.coop",
+        "address": "443 39th Street, Brooklyn, NY 11232",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 21,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004784,
+          40.652069
+        ]
+      },
+      "properties": {
+        "timestamp": "2/22/2015 21:42:33",
+        "business_name": "Beyond Care",
+        "industry": "Childcare",
+        "summary": "\"Beyond Care\" is a socially responsible cooperative business whose members provide child care services. Founded on the basis of democracy, equality and justice, Beyond care promotes living wage jobs in a safe and healthy working environment, while promoting personal growth and educational opportunities for its members. Our core values are solidarity, respect and professionalism.",
+        "website": "www.beyondcare.coop",
+        "telephone": "(917) 463-0399",
+        "email": "childcare@beyondcare.coop",
+        "address": "443 39th Street, Brooklyn, NY 11232",
+        "d_corp": null,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 7,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004784,
+          40.652069
+        ]
+      },
+      "properties": {
+        "timestamp": "2/17/2015 21:42:33",
+        "business_name": "Sí Se Puede! Women's Cooperative",
+        "industry": "Cleaning",
+        "summary": "Sí Se Puede! Women's Cooperative (We Can Do It! Inc.) was founded in Sunset Park, Brooklyn, in August 2006, to bring together immigrant women to create a women-run, women-owned, eco-friendly housecleaning business. The cooperative is designed to create living wage jobs that will be done in a safe and healthy environment, as well as to provide social supports and educational opportunities for our members.",
+        "website": "www.wecandoit.coop",
+        "telephone": "(347) 662-2440",
+        "email": "info@wecandoit.coop",
+        "address": "443 39th Street, Brooklyn, NY 11232",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 2,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004784,
+          40.652069
+        ]
+      },
+      "properties": {
+        "timestamp": "2/26/2015 21:42:33",
+        "business_name": "Sí Se Puede! Women's Cooperative",
+        "industry": "Cleaning",
+        "summary": "Sí Se Puede! Women's Cooperative (We Can Do It! Inc.) was founded in Sunset Park, Brooklyn, in August 2006, to bring together immigrant women to create a women-run, women-owned, eco-friendly housecleaning business. The cooperative is designed to create living wage jobs that will be done in a safe and healthy environment, as well as to providesocial supports and educational opportunities for our members.",
+        "website": "www.wecandoit.coop",
+        "telephone": "(347) 662-2440",
+        "email": "info@wecandoit.coop",
+        "address": "443 39th Street, Brooklyn, NY 11232",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 11,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974747,
+          40.652031
+        ]
+      },
+      "properties": {
+        "timestamp": "3/17/2015 21:42:33",
+        "business_name": "Limz Machinery",
+        "industry": "Machinery",
+        "summary": "We sell new and used woodworking machinery to a nationwide and international clientele. We can turn excess machinery from your factory into cash, or liquidate the entire plant.",
+        "website": "www.limzmachinery.com",
+        "telephone": "(718) 871-2211",
+        "email": "sales@limzmachinery.com",
+        "address": "701 Greenwood Ave, Brooklyn, NY 11218",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 30,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929878,
+          40.813061
+        ]
+      },
+      "properties": {
+        "timestamp": "3/27/2015 21:42:33",
+        "business_name": "La Fina del Sur",
+        "industry": "Restaurants / Catering / Food",
+        "summary": "La Finca del Sur is an urban farmer cooperative led by Latina and Black women and their allies. We are committed to building healthy neighborhoods through economic empowerment, increased nutritional awareness, training and education, and advocating social and political equality and food justice in low-income communities.",
+        "website": "www.bronxfarmers.blogspot.com",
+        "telephone": "(646) 725-2162",
+        "email": "infosbufc@gmail.com",
+        "address": "138th Street and Grand Concourse, Bronx, NY 10451",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 40,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985161,
+          40.677269
+        ]
+      },
+      "properties": {
+        "timestamp": "3/2/2015 21:42:33",
+        "business_name": "Build with Prospect",
+        "industry": "Construction",
+        "summary": "Build with Prospect, Inc. is a sustainable design-build worker cooperative devoted to creating low energy buildings. We are committed to designing and constructing buildings that focus on sustainable and ecologically sound principles, which help improve not only the environment, but also our clients' health and yearly energy costs. We see no contradiction in maintaining and improving upon the look of old New York while applying the newest technology and ideas in ecological and sustainable buildings. Wherever possible, implementation of the Passive House Standard in our designs and buildings is our goal. Click Here to learn more about this low energy building standard. Our firm's philosophy is to establish long-term clients through attention to detail, care and consideration of our clients' needs and preservation of the quality and character of New York's unique communities.",
+        "website": "www.buildwithprospect.com",
+        "telephone": "(718) 783-0348",
+        "email": "info@buildwithprospect.com",
+        "address": "540 President St, 3rd Floor, Brooklyn, NY 11215",
+        "d_corp": true,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 15,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.627792,
+          40.70866
+        ]
+      },
+      "properties": {
+        "timestamp": "2/27/2015 21:42:33",
+        "business_name": "UNITY Housecleaners",
+        "industry": "Cleaning",
+        "summary": "In 1998, the Workplace Project launched UNITY Housecleaners, Long Island’s first domestic workers’ housecleaning cooperative. To become a member, workers must complete a four-week course covering the essential components of running a successful cooperative and a training class on housecleaning skills. Ten percent of the money earned by each member is contributed back to the cooperative to help cover operating expenses and build a self-sustainable organization.",
+        "website": "www.workplaceprojectny.org",
+        "telephone": "(516) 565-1979",
+        "email": "unityhousecleaners.llc@gmail.com",
+        "address": "91 N. Franklin St, Suite 207, Hempstead, NY 11550",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 12,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.950127,
+          40.659287
+        ]
+      },
+      "properties": {
+        "timestamp": "3/13/2015 21:42:33",
+        "business_name": "Caracol Interpreters",
+        "industry": "Interpretation / Translation",
+        "summary": "The Caracol Interpreters Cooperative opens multilingual channels of communication to ignite language justice in our community. We work to create a world where language is not a barrier for exchange, but a helpful tool that can be used democratically to communicate, learn and strategize together.",
+        "website": "www.facebook.com/CaracolInterpretersCooperative",
+        "telephone": "(347) 674-9487",
+        "email": "caracol.interpreters@gmail.com",
+        "address": "316 Rutland Rd, Brooklyn, NY 11225",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 26,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.874291,
+          40.839321
+        ]
+      },
+      "properties": {
+        "timestamp": "3/26/2015 21:42:33",
+        "business_name": "Ginger Moon",
+        "industry": "Restaurants / Catering / Food",
+        "summary": "We believe that a mother who is eating balanced and nutritious foods, AND experiences herself supported by others, will thrive at caring for her growing family. We create delicious meals using traditional fertility foods: ingredients that meet the specific nutritional needs of new and expecting moms. Through in-home cooking and personalized support sessions, we provide a unique service that helps our clients attain and reclaim their wellness and vitality.",
+        "website": "www.ginger-moon.com",
+        "telephone": "(646) 721-8336",
+        "email": "info@ginger-moon.com",
+        "address": "409 Morris Park Ave, Bronx, NY 10460",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 39,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.966362,
+          40.696545
+        ]
+      },
+      "properties": {
+        "timestamp": "3/15/2015 21:42:33",
+        "business_name": "Full Lane Logistics",
+        "industry": "Logistics",
+        "summary": "Our services are targeted to be the better answer for delivery needs too large for a courier or normal food delivery person, but too small to be practical for a van. Our ideal delivery loads range from thirty to three hundred pounds, with volume up to roughly one third of a conventional delivery van. We specialize in direct, time-sensitive delivery of specialty foods, wine, and catering with the capacity for insulated transport to keep goods cool. We also offer intra-borough apartment moving services, primarily on weekends.",
+        "website": "www.fulllanelogistics.wordpress.com",
+        "telephone": "(917) 991-9252",
+        "email": "cooperativedeliveries@gmail.com",
+        "address": "47 Hall St, Brooklyn, NY 11205",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 28,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.923439,
+          40.70517
+        ]
+      },
+      "properties": {
+        "timestamp": "",
+        "business_name": "Palante Tech",
+        "industry": "Web Design / Tech",
+        "summary": "Palante Technology Cooperative works to help non-profit, progressive organizations move forward with the aid of technology. We come to this work with technical expertise, a deep understanding of the particular needs of community organizations, and a long-standing commitment to working for social justice.",
+        "website": "www.palantetech.coop",
+        "telephone": "(888) 481-3655",
+        "email": "jack@palantetech.coop",
+        "address": "207 Starr St, Brooklyn, NY 11237",
+        "d_corp": true,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 45,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969879,
+          40.680019
+        ]
+      },
+      "properties": {
+        "timestamp": "",
+        "business_name": "Spirit Freedom Mahditation",
+        "industry": "Yoga / Massage",
+        "summary": "The services and classes at Spirit Freedom emphasize holistic care in natural ways that truly heal at the source of disease instead of just treating symptoms as the main stream health industry often does. They currently offer dance, music and theatre therapy, hypnosis, essential oils therapy, massage therapy, Reiki, Thai massage, and nutritional therapy.",
+        "website": "www.spiritfreedom.org",
+        "telephone": "(646) 242-8477",
+        "email": "dancewithheidi@hotmail.com",
+        "address": "603 Bergen Street, Brooklyn, New York 11238",
+        "d_corp": false,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 48,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9645,
+          40.640724
+        ]
+      },
+      "properties": {
+        "timestamp": "",
+        "business_name": "Third Root Community Health Center",
+        "industry": "Yoga / Massage",
+        "summary": "At Third Root Community Health Center, social justice is at the core of healing. Among our goals are to challenge systematic health disparities, hierarchies within different modalities of healthcare, and to provide a different model of care that grows out of love. We work to provide holistic healthcare for everyone, in acknowledgement of the living realities and histories of the many communities that our clients and students come from. All of our practitioners have received the appropriate trainings and licenses for their modality, as well as additional training based on their own interests. Please look at provider biographies to see who is perfect for you!",
+        "website": "www.thirdroot.org",
+        "telephone": "(718) 940-9343",
+        "email": "info@thirdroot.org",
+        "address": "380 Marlborough Road, Brooklyn, NY 11226",
+        "d_corp": true,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 49,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.887558,
+          40.749409
+        ]
+      },
+      "properties": {
+        "timestamp": "2/23/2015 21:42:33",
+        "business_name": "Apple Eco-Cleaning",
+        "industry": "Cleaning",
+        "summary": "Apple Eco-Cleaning is worker-owned, and worker operated co-op that provides sophisticated Eco-Friendly Cleaning services in the tri-state area. With a new model of job creation, job training, and social action that will create living wages jobs and provide training in green home cleaning and support the social justice organizing efforts of the Workers Justice Project.",
+        "website": "www.green-coop.com",
+        "telephone": "(347) 796-7570",
+        "email": "info@applecleaning.coop",
+        "address": "PO Box 720009, Jackson Heights, NY 11372",
+        "d_corp": true,
+        "__of_employees": "",
+        "year_established": "",
+        "cartodb_id": 8,
+        "created_at": "2015-04-22T22:25:42Z",
+        "updated_at": "2015-04-22T22:26:32Z",
+        "cartodb_georef_status": true
+      }
+    }
+  ]
+}
