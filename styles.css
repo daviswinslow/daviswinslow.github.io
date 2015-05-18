@@ -400,7 +400,28 @@
 		width: 100%
 	}
 
-	
+/*INFO WINDOW*/
+	#info {
+	  position: relative;
+	  background: #9298B7;
+	  opacity: .95;
+	  height: auto;
+	  width: 225px;
+	  margin: 0;
+	  padding: 10px;
+	  border: 0;
+	  list-style: none;
+	  font-weight: normal;
+	  text-decoration: none;
+	  line-height: 1;
+	  font-family: Montserrat, sans-serif;
+	  font-size: 14px;
+	  position: relative;
+	  z-index: 200;
+	  color: #fff;
+	  word-wrap: break-word;
+	  
+	}
 
 /*SIDEBAR*/
 	
@@ -414,9 +435,11 @@
 	  padding: 0;
 	  position: absolute;
 	  right: 0px;
-	  top: 25%;
+	  top: 15%;
 	  background: #9298B7;
 	  opacity: .95;
+	  border-bottom: 1px solid #5e071b;
+
 	}
 	
 	/* Base Styles */  
