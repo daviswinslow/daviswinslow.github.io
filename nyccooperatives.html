@@ -8,6 +8,7 @@
   <meta charset='utf-8'>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 
 
 <!--LEAFLET-->    
@@ -18,12 +19,11 @@
        * Keep the map variable out here so we can access it from
        * the console.
        */
-      var map;
       $(document).ready(function () {
         /*
          * Create the map
          */
-        map = L.map('map', { zoomControl:false }).setView([40.712, -73.959], 13);
+        map = L.map('map', { zoomControl:false }).setView([40.7337, -73.9821], 13);
 		map.touchZoom.disable();
 		map.doubleClickZoom.disable();
 		map.scrollWheelZoom.disable();
@@ -35,33 +35,45 @@
 		L.tileLayer('http://{s}.tiles.mapbox.com/v4/daviswinslow.1b35ec65/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGF2aXN3aW5zbG93IiwiYSI6ImlPVUQwYTAifQ.lPJzHF0PpoUeOa-FEmXvBQ', {
 		 attribution: 'Icons made by <a href="http://www.flaticon.com/authors/scott-de-jonge">Scott de Jonge</a> from <a href="http://www.flaticon.com">Flaticon</a>, licensed by <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0.</a><div>Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="https://mapbox.com">Mapbox</a></div'
         }).addTo(map);
-		
-		
-<!--CARTODB-->
-		$.getJSON('https://daviswinslow.cartodb.com/api/v2/sql?q=SELECT * FROM coop_form_responses&format=GeoJSON')
-  
-    // When it's done, add the results to the map
-    .done(function (data) {
-      L.geoJson(data, {
-        
-        // Add a pointToLayer function, which will let us
+
+<!--GEOJSON LAYER-->
+  		
+    $.getJSON('https://daviswinslow.github.io/coopdata.geojson', function (data) {
+          L.geoJson(data, {
+            
+		// Add a pointToLayer function, which will let us
         // customize the icons used for each feature
         pointToLayer: function (feature, latlng) {
           
           // Return a new marker with our icon
-          return L.marker(latlng, {
-            icon: L.icon({
-              iconUrl: 'http://daviswinslow.neocities.org/black344234.png'
+          return L.circleMarker(latlng, {
+			color: '#000',
+            fillColor: '#fff',
+            fillOpacity: .8,
+			weight: 5,
+			radius: 5
             })
-          });
         }
-      }).addTo(map);   
-    });
-	
-});
-    </script>
-   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-   <script src="script.js"></script>
+      }).addTo(map);
+        })
+    $.getJSON('https://daviswinslow.github.io/coopdata.geojson', function (data) {
+      L.geoJson(data, {
+	  onEachFeature: function (feature, layer) {
+        //layer.bindPopup(feature.properties.name);
+            
+            layer.on('click', function (e) {
+            document.getElementById("info").innerHTML = feature.properties.business_name;
+        });
+    }
+		  }).addTo(map);	
+		   });
+      });  
+      
+      </script>
+    
+   
+     	
+<!-- MAIN MENU JS -->
    <script type="text/javascript">
 		$("#cssmenu").menumaker({
 		title: "Menu",
@@ -70,524 +82,22 @@
 		});</script>
 	
 <!--LOCAL JAVASCRIPT-->
+    <script src="script.js"></script>
     
 	<script src="sidebar_script.js"></script>
+    
+    <script src="sidebar-sql.js"></script>
     
 <!--TITLE-->
 
 <title>NYC Worker Cooperatives</title>
 
-<!--CSS--> 
 
- 
-    
-  <style id="jsbin-css">
-  
-  
-  	/*BODY*/
-	@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-	html, body {
-	  height: 100%;
-	  width: auto;
-	  margin:0;
-	  padding: 0;
-	  font-size: 12px;
-	  letter-spacing: 1px;
-	  text-decoration: none;
-	  color: #1d1d21;
-	  font-weight: 700;
-	  font-family: Montserrat, sans-serif;
-	  background: #D8D9DE;
-	}
-	
-	html, section {
-		height: 100%;
-		width: 100%
-	}
-	
-/*MAIN MENU*; Tutorial here: http://cssmenumaker.com/blog/creating-a-responsive-menu*/
-	#cssmenu,
-	#cssmenu ul,
-	#cssmenu ul li,
-	#cssmenu ul li a,
-	#cssmenu #menu-button {
-	  margin: 0;
-	  padding: 0;
-	  border: 0;
-	  list-style: none;
-	  line-height: 1;
-	  display: block;
-	  position: relative;
-	  -webkit-box-sizing: border-box;
-	  -moz-box-sizing: border-box;
-	  box-sizing: border-box;
-	  z-index: 150;
-	}
-	/*We use the stylesheet reset to prevent our menus from conflicting with other CSS from the user's page. Next, the clearfix:*/
-	#cssmenu:after,
-	#cssmenu > ul:after {
-	  content: ".";
-	  display: block;
-	  clear: both;
-	  visibility: hidden;
-	  line-height: 0;
-	  height: 0;
-	}	
-	#cssmenu #menu-button {
-	  display: none;
-	}
-		
-	/*The menu font and background color:*/	
-	#cssmenu {
-	  font-family: Montserrat, sans-serif;
-	  background: #ffffff;
-	  opacity: .75;
-	}	
-	#cssmenu > ul > li {
-	  float: left;
-	}
-	#cssmenu.align-center > ul {
-	  font-size: 0;
-	  text-align: center;
-	}
-	#cssmenu.align-center > ul > li {
-	  display: inline-block;
-	  float: none;
-	}
-	#cssmenu.align-center ul ul {
-	  text-align: left;
-	}
-	#cssmenu.align-right > ul > li {
-	  float: left;
-	}
-	#cssmenu > ul > li > a {
-	  padding: 17px;
-	  font-size: 12px;
-	  letter-spacing: 1px;
-	  text-decoration: none;
-	  color: #9298B7;
-	  font-weight: 700;
-	  text-transform: uppercase;
-	}
-	
-	/*The links which have submenus need extra space to the right for the submenu indicator. The list items which contain those links have a class called has-sub which is added by the jQuery plugin, but can also by added by the menu builder.*/
-	
-	#cssmenu > ul > li.has-sub > a {
-	  padding-right: 30px;
-	}
-	
-	/*On hover, the line changes its color just like the menu links:*/
-	
-	#cssmenu > ul > li.has-sub > a:after {
-	  position: absolute;
-	  top: 22px;
-	  right: 11px;
-	  width: 8px;
-	  height: 2px;
-	  display: block;
-	  background: #fff;
-	  content: '';
-	}
-	
-	/*The vertical line is next. We'll use a before pseudoelement this time:*/
-	
-	#cssmenu > ul > li.has-sub > a:before {
-	  position: absolute;
-	  top: 19px;
-	  right: 14px;
-	  display: block;
-	  width: 2px;
-	  height: 8px;
-	  background: #dddddd;
-	  content: '';
-	  -webkit-transition: all .25s ease;
-	  -moz-transition: all .25s ease;
-	  -ms-transition: all .25s ease;
-	  -o-transition: all .25s ease;
-	  transition: all .25s ease;
-	}
-	#cssmenu > ul > li.has-sub:hover > a:before {
-	  top: 23px;
-	  height: 0;
-	}
-	#cssmenu ul ul {
-	  position: absolute;
-	  left: -9999px;
-	}
-	#cssmenu.align-right ul ul {
-	  text-align: right;
-	}
-	#cssmenu ul ul li {
-	  height: 0;
-	  -webkit-transition: all .25s ease;
-	  -moz-transition: all .25s ease;
-	  -ms-transition: all .25s ease;
-	  -o-transition: all .25s ease;
-	  transition: all .25s ease;
-	}
-	#cssmenu li:hover > ul {
-	  left: auto;
-	}
-	#cssmenu.align-right li:hover > ul {
-	  left: auto;
-	  right: 0;
-	}
-	#cssmenu li:hover > ul > li {
-	  height: 35px;
-	}
-	#cssmenu ul ul ul {
-	  margin-left: 100%;
-	  top: 0;
-	}
-	#cssmenu.align-right ul ul ul {
-	  margin-left: 0;
-	  margin-right: 100%;
-	}
-	#cssmenu ul ul li a {
-	  border-bottom: 1px solid rgba(150, 150, 150, 0.15);
-	  padding: 11px 15px;
-	  width: 170px;
-	  font-size: 12px;
-	  text-decoration: none;
-	  color: #dddddd;
-	  font-weight: 400;
-	  background: #9298b7;
-	}
-	#cssmenu ul ul li:last-child > a,
-	#cssmenu ul ul li.last-item > a {
-	  border-bottom: 0;
-	}
-	#cssmenu ul ul li:hover > a,
-	#cssmenu ul ul li a:hover {
-	  color: #ffffff;
-	}
-	#cssmenu ul ul li.has-sub > a:after {
-	  position: absolute;
-	  top: 16px;
-	  right: 11px;
-	  width: 8px;
-	  height: 2px;
-	  display: block;
-	  background: #dddddd;
-	  content: '';
-	}
-	#cssmenu.align-right ul ul li.has-sub > a:after {
-	  right: auto;
-	  left: 11px;
-	}
-	#cssmenu ul ul li.has-sub > a:before {
-	  position: absolute;
-	  top: 13px;
-	  right: 14px;
-	  display: block;
-	  width: 2px;
-	  height: 8px;
-	  background: #dddddd;
-	  content: '';
-	  -webkit-transition: all .25s ease;
-	  -moz-transition: all .25s ease;
-	  -ms-transition: all .25s ease;
-	  -o-transition: all .25s ease;
-	  transition: all .25s ease;
-	}
-	#cssmenu.align-right ul ul li.has-sub > a:before {
-	  right: auto;
-	  left: 14px;
-	}
-	#cssmenu ul ul > li.has-sub:hover > a:before {
-	  top: 17px;
-	  height: 0;
-	}
-	@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
-	  #cssmenu {
-		width: 100%;
-	  }
-	  #cssmenu ul {
-		width: 100%;
-		display: none;
-	  }
-	  #cssmenu.align-center > ul {
-		text-align: left;
-	  }
-	  #cssmenu ul li {
-		width: 100%;
-		border-top: 1px solid rgba(120, 120, 120, 0.2);
-	  }
-	  #cssmenu ul ul li,
-	  #cssmenu li:hover > ul > li {
-		height: auto;
-	  }
-	  #cssmenu ul li a,
-	  #cssmenu ul ul li a {
-		width: 100%;
-		border-bottom: 0;
-	  }
-	  #cssmenu > ul > li {
-		float: none;
-	  }
-	  #cssmenu ul ul li a {
-		padding-left: 25px;
-	  }
-	  #cssmenu ul ul ul li a {
-		padding-left: 35px;
-	  }
-	  #cssmenu ul ul li a {
-		color: #dddddd;
-		background: none;
-	  }
-	  #cssmenu ul ul li:hover > a,
-	  #cssmenu ul ul li.active > a {
-		color: #ffffff;
-	  }
-	  #cssmenu ul ul,
-	  #cssmenu ul ul ul,
-	  #cssmenu.align-right ul ul {
-		position: relative;
-		left: 0;
-		width: 100%;
-		margin: 0;
-		text-align: left;
-	  }
-	  #cssmenu > ul > li.has-sub > a:after,
-	  #cssmenu > ul > li.has-sub > a:before,
-	  #cssmenu ul ul > li.has-sub > a:after,
-	  #cssmenu ul ul > li.has-sub > a:before {
-		display: none;
-	  }
-	  #cssmenu #menu-button {
-		display: block;
-		padding: 17px;
-		color: #dddddd;
-		cursor: pointer;
-		font-size: 12px;
-		text-transform: uppercase;
-		font-weight: 700;
-	  }
-	  #cssmenu #menu-button:after {
-		position: absolute;
-		top: 22px;
-		right: 17px;
-		display: block;
-		height: 4px;
-		width: 20px;
-		border-top: 2px solid #dddddd;
-		border-bottom: 2px solid #dddddd;
-		content: '';
-	  }
-	  #cssmenu #menu-button:before {
-		position: absolute;
-		top: 16px;
-		right: 17px;
-		display: block;
-		height: 2px;
-		width: 20px;
-		background: #dddddd;
-		content: '';
-	  }
-	  #cssmenu #menu-button.menu-opened:after {
-		top: 23px;
-		border: 0;
-		height: 2px;
-		width: 15px;
-		background: #ffffff;
-		-webkit-transform: rotate(45deg);
-		-moz-transform: rotate(45deg);
-		-ms-transform: rotate(45deg);
-		-o-transform: rotate(45deg);
-		transform: rotate(45deg);
-	  }
-	  #cssmenu #menu-button.menu-opened:before {
-		top: 23px;
-		background: #ffffff;
-		width: 15px;
-		-webkit-transform: rotate(-45deg);
-		-moz-transform: rotate(-45deg);
-		-ms-transform: rotate(-45deg);
-		-o-transform: rotate(-45deg);
-		transform: rotate(-45deg);
-	  }
-	  #cssmenu .submenu-button {
-		position: absolute;
-		z-index: 99;
-		right: 0;
-		top: 0;
-		display: block;
-		border-left: 1px solid rgba(120, 120, 120, 0.2);
-		height: 46px;
-		width: 46px;
-		cursor: pointer;
-	  }
-	  #cssmenu .submenu-button.submenu-opened {
-		background: #262626;
-	  }
-	  #cssmenu ul ul .submenu-button {
-		height: 34px;
-		width: 34px;
-	  }
-	  #cssmenu .submenu-button:after {
-		position: absolute;
-		top: 22px;
-		right: 19px;
-		width: 8px;
-		height: 2px;
-		display: block;
-		background: #dddddd;
-		content: '';
-	  }
-	  #cssmenu ul ul .submenu-button:after {
-		top: 15px;
-		right: 13px;
-	  }
-	  #cssmenu .submenu-button.submenu-opened:after {
-		background: #ffffff;
-	  }
-	  #cssmenu .submenu-button:before {
-		position: absolute;
-		top: 19px;
-		right: 22px;
-		display: block;
-		width: 2px;
-		height: 8px;
-		background: #dddddd;
-		content: '';
-	  }
-	  #cssmenu ul ul .submenu-button:before {
-		top: 12px;
-		right: 16px;
-	  }
-	  #cssmenu .submenu-button.submenu-opened:before {
-		display: none;
-	  }
-	}
-	
-/*MAP*/
-	
-	#map {
-	  height: 100%;
-	  padding: 0;
-	  frameborder: 0;
-	  position: relative;
-	}
-	
-	.leaflet-popup-content-wrapper,
-	.leaflet-popup-tip {
-  	background: purple;
-	}
-	.leaflet-popup {
-  	color: white;
-  	font-size: 24px;
-  	font-weight: bold;
-	}
-	
-	
-/*SIDEBAR*/
-	
-	#container {
-	  position: absolute;
-	  z-index: 100;
-	  margin: 0;
-	  padding-right: 10%;
-	  border: 0;
-	  height: auto;
-	  padding: 0;
-	  position: absolute;
-	  right: 0px;
-	  top: 25%;
-	  background: #9298B7;
-	  opacity: .95;
-	}
-	
-	/* Base Styles */  
-	#sidebar,
-	#sidebar ul,
-	#sidebar li,
-	#sidebar a {
-	  margin: 0;
-	  padding: 0;
-	  border: 0;
-	  list-style: none;
-	  font-weight: normal;
-	  text-decoration: none;
-	  line-height: 1;
-	  font-family: Montserrat, sans-serif;
-	  font-size: 14px;
-	  position: relative;
-	  z-index: 200;
-	}
-	#sidebar a {
-	  line-height: 1.3;
-	}
-	#sidebar {
-	  width: 250px;
-	}
-	#sidebar > ul > li > a {  /*NUMBER BOX*/
-	  padding-right: 40px;
-	  font-size: 25px;
-	  font-weight: bold;
-	  display: block;
-	  background: #9298B7;
-	  color: #ffffff;
-	  border-bottom: 1px solid #5e071b;
-	  text-transform: uppercase;
-	}
-	#sidebar > ul > li > a > span {
-	  background: #AFB4CA;
-	  padding: 10px;
-	  display: block;
-	  font-size: 13px;
-	  font-weight: 300;
-	}
-	#sidebar > ul > li > a:hover {
-	  text-decoration: none;
-	}
-	#sidebar > ul > li.active {
-	border-bottom: none;
-	}
-	#sidebar > ul > li.active > a {
-	  color: #ffffff;
-	}
-	#sidebar > ul > li.active > a span {
-	  background: #bd0e36;
-	}
-	#sidebar span.cnt {
-	  position: absolute;
-	  top: 8px;
-	  right: 15px;
-	  padding: 0;
-	  margin: 0;
-	  background: none;
-	}
-	/* Sub menu */
-	#sidebar ul ul {
-	  display: none;
-	}
-	#sidebar ul ul li {
-	  border: 1px solid #e0e0e0;
-	  border-top: 0;
-	}
-	#sidebar ul ul a {
-	  padding: 10px;
-	  display: block;
-	  color: #ffffff;
-	  font-size: 13px;
-	}
-	#sidebar ul ul a:hover {
-	  color: #afb4ca;
-	}
-	#sidebar ul ul li.odd {
-	  background: #92949F;
-	}
-	#sidebar ul ul li.even {
-	  background: #A7A9B2;
-	}
+<!--BRING IN CSS-->
 
-<!--Directory List-->
-.directory {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-}
-	</style>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+
 </head>
 
 
@@ -768,6 +278,10 @@
                          <li class='last'><a href='#'><span>Product 3</span></a></li>
                       </ul>
                    </li>
+                   <li class='has-sub'><a href='#'><span>Industry</span></a></style>
+                      <ul class="results-industry">
+                      </ul>
+                   </li>
                    <li class='has-sub'><a href='#'><span>Borough</span></a>
                       <ul>
                          <li><a href='#'><span>Bronx</span></a></li>
@@ -779,7 +293,9 @@
                    </li>
                    <li class='last'><a href='#'><span>Clear</span></a></li>
                 </ul>
-          </div>
+            </div>
+            <div id="info">
+            </div>
 		  </div>
       <!--FOOTER
 		<div id="footer">
@@ -789,4 +305,5 @@
     </section>
 <!--END OF PAGE-->
   </body>
+  
 </html>
